@@ -1,0 +1,26 @@
+{
+  "name": "feedback_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "svr.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node svr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howlingunit/feedback_form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howlingunit/feedback_form/issues"
+  },
+  "homepage": "https://github.com/howlingunit/feedback_form#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite": "^4.2.0",
+    "sqlite3": "^5.1.6"
+  }
+}
